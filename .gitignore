@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 #Project
 *.csv
+*.xls
+*.xlsx
 # ESRI
 *.tbx
 *.gdb
