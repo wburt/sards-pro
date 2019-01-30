@@ -1,3 +1,17 @@
+'''
+
+About
+========= 
+:synopsis:     Reports on threats to species at risk
+:moduleauthor: Will Burt    
+:date:         Jan 30, 2019
+:description:  identifies threats from linked spatial inidicators within a user submitted area of interest
+                - summarizes amount of indicators within mapped species at risk ranges
+                - reports on total threat levels linked to intersected indictors within area of interest
+
+'''
+
+
 import os
 import sys
 import ntpath
