@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> SARDS BETA RESULTS </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <p>Area - {{aoi_hectares}} ha</p>
+        <p>Indicators within range</p>
+        <div>
+            <ul>{% for i in myIndicators %}
+                <li>{{i}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <p>Highest Threat Report</p>
+        <div id='threat-report'>{{threatString}}</div>
+        <p>Overlapping Range for Species At Risk</p>
+        <div>
+            <ul>
+                {% for n in mylist %}
+                <li>{{n}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>
