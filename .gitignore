@@ -2,7 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+# ESRI
+*.tbx
+*.gdb
 
+#vs code
+.vscode
 # C extensions
 *.so
 
