@@ -1,4 +1,5 @@
 # Automated Status Tool
+![img](https://img.shields.io/badge/Lifecycle-Dormant-ff7f2a)
 ## Usage
 
 sards_geoprocessing_module AOI
